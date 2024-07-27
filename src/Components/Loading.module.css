@@ -1,0 +1,19 @@
+.BackAnimation{
+    height: 100%;
+}
+
+.AnimationRotate{
+    margin: 80% auto;
+    border: 6px solid var(--Grey2);
+    border-top-color: var(--Blue);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: rotating 1s infinite;
+}
+
+@keyframes rotating {
+    to{
+        transform: rotate(1turn);
+    }
+}

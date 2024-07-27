@@ -1,0 +1,65 @@
+.User {
+  background-color: var(--Grey1);
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.User img {
+  width: 140px;
+  height: 140px;
+  border: 4px solid var(--Blue);
+  border-radius: 50%;
+}
+
+.lotacion {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.lotacion svg {
+  color: var(--Blue);
+  font-size: 1.5rem;
+}
+
+.lotacion span {
+  color: var(--Back);
+  font-weight: bold;
+}
+
+.Stats {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0 1rem;
+  gap: 0.4rem;
+}
+
+.Stats div:first-child {
+  border-radius: 1px solid var(--Grey2);
+}
+
+.Stats .number {
+  background-color: var(--Blue);
+  padding: 0.2rem;
+  border-radius: 3px;
+}
+
+.User a {
+  text-align: center;
+  background-color: var(--Blue);
+  color: var(--Back);
+  padding: 1rem;
+  border-radius: 5px;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.User a:hover {
+  opacity: 1;
+}

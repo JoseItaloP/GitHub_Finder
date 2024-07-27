@@ -1,0 +1,41 @@
+.Search{
+    background-color: var(--Grey1);
+    padding: 2rem;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Search p{
+    color: var(--Grey2);
+}
+
+.Search_Container{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.Search_Container input,
+.Search_Container button{
+    padding: .6rem;
+    border-radius: 3px;
+    border: none;
+    color: var(--Back);
+}
+
+.Search_Container button{
+    background-color: var(--Blue);
+    cursor: pointer;
+    opacity: .7;
+    transition: 0.5s;
+}
+
+.Search_Container button:hover{
+    opacity: 1;
+}

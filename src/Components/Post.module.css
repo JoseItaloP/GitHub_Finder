@@ -1,0 +1,83 @@
+.BackPost{
+    background-color: var(--Grey1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin-bottom: 15px;
+    width: 600px;
+    padding: 10px;
+
+    border: 1px solid var(--Grey2);
+    border-radius: 5px;
+}
+
+.fleBoxEdit{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 15rem;
+}
+
+.fleBoxEdit h2{
+    color: var(--Blue);
+    margin-bottom: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.fleBoxEdit > div{
+    margin-bottom: 10px;
+    display: flex;   
+    align-items: center;
+}
+
+.fleBoxEdit > div > svg{
+    margin-right: 5px;
+    
+}
+
+.Stars > svg{
+    color: #E3B341;
+}
+
+.Language > svg{
+    color: var(--Blue);
+}
+
+a{width: 100%;}
+
+.Buttn{
+    width: 100%;
+    padding: 5px;
+
+    color: var(--Blue);
+    border: 0;
+    border-radius: 5px;
+
+    background-color: var(--Back);
+    font-size: 1.1rem;
+    transition: 0.5s;
+     
+}
+
+a > .Buttn {
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.Buttn:hover{
+    background-color: var(--Blue);
+    cursor: pointer;
+}
+a:hover > .Buttn {
+    color: var(--Back);
+}
+
+@media screen and (max-width: 750px) {
+    .BackPost{
+        width: 90vw;
+        padding: 10px 0px 10px 0px;
+    }
+}
