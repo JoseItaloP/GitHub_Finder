@@ -14,7 +14,7 @@ const Repository = () => {
 
   useEffect(() => {
     setLoading(true) //ativa a animação de loading
-    const feth = async (p0: string | void) => {//pega os dados
+    const feth = async () => {//pega os dados
       const res = await fetch(`https://api.github.com/users/${User}/repos`);
       let data = await res.json();
 
